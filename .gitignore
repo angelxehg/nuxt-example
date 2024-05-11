@@ -136,3 +136,6 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/nuxtjs,vuejs,dotenv,visualstudiocode,webstorm+all
 
 # Nuxt dev/build outputs
+
+# Local Netlify folder
+.netlify
