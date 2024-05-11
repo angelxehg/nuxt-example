@@ -1,12 +1,14 @@
+<script setup lang="ts">
+import Navbar from "~/Navbar.vue";
+</script>
+
 <template>
   <div>
     <h1>About</h1>
-    <nav>
-      <ul>
-        <li><NuxtLink to="/">/</NuxtLink></li>
-        <li><NuxtLink to="/about">/about</NuxtLink></li>
-        <li><NuxtLink to="/contact">/contact</NuxtLink></li>
-      </ul>
-    </nav>
+    <Navbar></Navbar>
   </div>
 </template>
+
+<style scoped>
+
+</style>
